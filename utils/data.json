@@ -1,0 +1,968 @@
+[
+  {
+    "symbol": "TFUEL-USDC",
+    "price_24h": 0.05244,
+    "volume_24h": 0,
+    "last_trade_price": 0.05244
+  },
+  {
+    "symbol": "XLM-EUR",
+    "price_24h": 0.11636,
+    "volume_24h": 47602.5104196,
+    "last_trade_price": 0.11367
+  },
+  {
+    "symbol": "ALGO-BTC",
+    "price_24h": 0.00001488,
+    "volume_24h": 0,
+    "last_trade_price": 0.00001488
+  },
+  {
+    "symbol": "EFI-USDT",
+    "price_24h": 0.137,
+    "volume_24h": 0,
+    "last_trade_price": 0.137
+  },
+  {
+    "symbol": "XTZ-USDT",
+    "price_24h": 1.46,
+    "volume_24h": 854.70311111,
+    "last_trade_price": 1.46
+  },
+  {
+    "symbol": "XLM-BTC",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0.00000551
+  },
+  {
+    "symbol": "USDC-GBP",
+    "price_24h": 0.8882,
+    "volume_24h": 0,
+    "last_trade_price": 0.8882
+  },
+  {
+    "symbol": "OGN-USDT",
+    "price_24h": 0.2322,
+    "volume_24h": 0,
+    "last_trade_price": 0.2322
+  },
+  {
+    "symbol": "CLOUT-USD",
+    "price_24h": 6.61,
+    "volume_24h": 95,
+    "last_trade_price": 6.6
+  },
+  {
+    "symbol": "STX-USDC",
+    "price_24h": 0.331,
+    "volume_24h": 0,
+    "last_trade_price": 0.324
+  },
+  {
+    "symbol": "CEUR-USDT",
+    "price_24h": 0.95,
+    "volume_24h": 89.11504425,
+    "last_trade_price": 0.95
+  },
+  {
+    "symbol": "EOS-USD",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0
+  },
+  {
+    "symbol": "PAX-USD",
+    "price_24h": 1.0004,
+    "volume_24h": 0,
+    "last_trade_price": 1.0004
+  },
+  {
+    "symbol": "BCH-USD",
+    "price_24h": 120.14,
+    "volume_24h": 799.85018325,
+    "last_trade_price": 111.83
+  },
+  {
+    "symbol": "DAI-EUR",
+    "price_24h": 1.0098,
+    "volume_24h": 0,
+    "last_trade_price": 1.0097
+  },
+  {
+    "symbol": "USDT-GBP",
+    "price_24h": 0.93,
+    "volume_24h": 1620368.4222,
+    "last_trade_price": 0.9356
+  },
+  {
+    "symbol": "CRV-USDT",
+    "price_24h": 0.8906,
+    "volume_24h": 0,
+    "last_trade_price": 0.8906
+  },
+  {
+    "symbol": "LINK-USDT",
+    "price_24h": 7.812,
+    "volume_24h": 0,
+    "last_trade_price": 7.812
+  },
+  {
+    "symbol": "CHZ-USD",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0
+  },
+  {
+    "symbol": "APE-USD",
+    "price_24h": 5.542,
+    "volume_24h": 0,
+    "last_trade_price": 5.542
+  },
+  {
+    "symbol": "STX-USD",
+    "price_24h": 0.321,
+    "volume_24h": 319.06688261,
+    "last_trade_price": 0.32
+  },
+  {
+    "symbol": "MATIC-USDT",
+    "price_24h": 0.997,
+    "volume_24h": 0,
+    "last_trade_price": 0.997
+  },
+  {
+    "symbol": "WDGLD-USD",
+    "price_24h": 174.52,
+    "volume_24h": 0,
+    "last_trade_price": 174.52
+  },
+  {
+    "symbol": "ETH-USD",
+    "price_24h": 1386.85,
+    "volume_24h": 11378.24380579,
+    "last_trade_price": 1326.73
+  },
+  {
+    "symbol": "SNX-USD",
+    "price_24h": 2.3021,
+    "volume_24h": 0,
+    "last_trade_price": 2.3021
+  },
+  {
+    "symbol": "LEND-USD",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0.4909
+  },
+  {
+    "symbol": "XLM-PAX",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0.06981
+  },
+  {
+    "symbol": "XRP-EUR",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0.22
+  },
+  {
+    "symbol": "XLM-USD",
+    "price_24h": 0.113,
+    "volume_24h": 180307.0023001,
+    "last_trade_price": 0.10815
+  },
+  {
+    "symbol": "BAT-USDC",
+    "price_24h": 0.30129,
+    "volume_24h": 0,
+    "last_trade_price": 0.30144
+  },
+  {
+    "symbol": "LINK-USDC",
+    "price_24h": 7.033,
+    "volume_24h": 0,
+    "last_trade_price": 7.055
+  },
+  {
+    "symbol": "DGLD-BTC",
+    "price_24h": 0.008328,
+    "volume_24h": 14.952,
+    "last_trade_price": 0.008328
+  },
+  {
+    "symbol": "BCH-EUR",
+    "price_24h": 125.05,
+    "volume_24h": 596.64650564,
+    "last_trade_price": 117.48
+  },
+  {
+    "symbol": "BCH-BTC",
+    "price_24h": 0.006,
+    "volume_24h": 0,
+    "last_trade_price": 0.006
+  },
+  {
+    "symbol": "CLOUT-BTC",
+    "price_24h": 0.000302,
+    "volume_24h": 0,
+    "last_trade_price": 0.000302
+  },
+  {
+    "symbol": "BTC-USD",
+    "price_24h": 20206.09,
+    "volume_24h": 564.14978891,
+    "last_trade_price": 19409
+  },
+  {
+    "symbol": "BCH-ETH",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0.582678
+  },
+  {
+    "symbol": "ETH-TRY",
+    "price_24h": 23950.9,
+    "volume_24h": 0,
+    "last_trade_price": 23950.9
+  },
+  {
+    "symbol": "WLUNA-USD",
+    "price_24h": 0.00013,
+    "volume_24h": 0,
+    "last_trade_price": 0.00013
+  },
+  {
+    "symbol": "THETA-USD",
+    "price_24h": 1.0751,
+    "volume_24h": 0.34364262,
+    "last_trade_price": 1.0751
+  },
+  {
+    "symbol": "CUSD-USDT",
+    "price_24h": 490,
+    "volume_24h": 0,
+    "last_trade_price": 490
+  },
+  {
+    "symbol": "BTC-TRY",
+    "price_24h": 390682,
+    "volume_24h": 0,
+    "last_trade_price": 390682
+  },
+  {
+    "symbol": "ALGO-USD",
+    "price_24h": 0.3515,
+    "volume_24h": 92802.336861,
+    "last_trade_price": 0.3401
+  },
+  {
+    "symbol": "ETH-EUR",
+    "price_24h": 1441.24,
+    "volume_24h": 55.08608133,
+    "last_trade_price": 1364.2
+  },
+  {
+    "symbol": "DOGE-USD",
+    "price_24h": 0.06063,
+    "volume_24h": 121.7193958,
+    "last_trade_price": 0.06063
+  },
+  {
+    "symbol": "GRT-USD",
+    "price_24h": 0.11561,
+    "volume_24h": 0,
+    "last_trade_price": 0.11561
+  },
+  {
+    "symbol": "STX-USDT",
+    "price_24h": 0.328,
+    "volume_24h": 8823.08443013,
+    "last_trade_price": 0.318
+  },
+  {
+    "symbol": "XRP-USD",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0.29
+  },
+  {
+    "symbol": "XLM-ETH",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0.00019195
+  },
+  {
+    "symbol": "USD-GBP",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0
+  },
+  {
+    "symbol": "YFI-USD",
+    "price_24h": 8513.43,
+    "volume_24h": 0,
+    "last_trade_price": 8513.43
+  },
+  {
+    "symbol": "BTC-PAX",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 6115
+  },
+  {
+    "symbol": "UMA-USDC",
+    "price_24h": 3.3229,
+    "volume_24h": 0,
+    "last_trade_price": 3.3229
+  },
+  {
+    "symbol": "WBTC-USDC",
+    "price_24h": 18996.89,
+    "volume_24h": 0,
+    "last_trade_price": 19154.51
+  },
+  {
+    "symbol": "MKR-USDT",
+    "price_24h": 1013.83,
+    "volume_24h": 0,
+    "last_trade_price": 1013.18
+  },
+  {
+    "symbol": "NEAR-USD",
+    "price_24h": 3.77,
+    "volume_24h": 24033.92758805,
+    "last_trade_price": 3.56
+  },
+  {
+    "symbol": "CRV-USDC",
+    "price_24h": 0.9327,
+    "volume_24h": 0,
+    "last_trade_price": 0.9327
+  },
+  {
+    "symbol": "TRX-USD",
+    "price_24h": 0.05865,
+    "volume_24h": 100178.055912,
+    "last_trade_price": 0.05905
+  },
+  {
+    "symbol": "UNI-USDT",
+    "price_24h": 6.355,
+    "volume_24h": 236.03596193,
+    "last_trade_price": 6.355
+  },
+  {
+    "symbol": "DOT-EUR",
+    "price_24h": 6.7,
+    "volume_24h": 3518.89221637,
+    "last_trade_price": 6.61
+  },
+  {
+    "symbol": "BAT-USDT",
+    "price_24h": 0.30126,
+    "volume_24h": 0,
+    "last_trade_price": 0.30126
+  },
+  {
+    "symbol": "BCH-PAX",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 339.24
+  },
+  {
+    "symbol": "DAI-USDC",
+    "price_24h": 0.9996,
+    "volume_24h": 0,
+    "last_trade_price": 0.9996
+  },
+  {
+    "symbol": "UNI-USD",
+    "price_24h": 6.285,
+    "volume_24h": 0.08800001,
+    "last_trade_price": 6.285
+  },
+  {
+    "symbol": "TFUEL-USDT",
+    "price_24h": 0.06478,
+    "volume_24h": 0,
+    "last_trade_price": 0.06478
+  },
+  {
+    "symbol": "SOL-USDT",
+    "price_24h": 34.86,
+    "volume_24h": 41.9312838,
+    "last_trade_price": 31.906
+  },
+  {
+    "symbol": "ETH-BTC",
+    "price_24h": 0.068773,
+    "volume_24h": 18.83963302,
+    "last_trade_price": 0.068301
+  },
+  {
+    "symbol": "WDGLD-BTC",
+    "price_24h": 0.007,
+    "volume_24h": 0,
+    "last_trade_price": 0.007
+  },
+  {
+    "symbol": "CELO-USDT",
+    "price_24h": 1.11,
+    "volume_24h": 0,
+    "last_trade_price": 1.11
+  },
+  {
+    "symbol": "USDC-EUR",
+    "price_24h": 1.017,
+    "volume_24h": 0,
+    "last_trade_price": 1.0169
+  },
+  {
+    "symbol": "XTZ-USDC",
+    "price_24h": 1.59,
+    "volume_24h": 0,
+    "last_trade_price": 1.59
+  },
+  {
+    "symbol": "WBTC-USDT",
+    "price_24h": 18957.87,
+    "volume_24h": 0.04333338,
+    "last_trade_price": 18956.37
+  },
+  {
+    "symbol": "MKR-USDC",
+    "price_24h": 1032.03,
+    "volume_24h": 0,
+    "last_trade_price": 1032.03
+  },
+  {
+    "symbol": "LTC-USD",
+    "price_24h": 55.19,
+    "volume_24h": 813.83013578,
+    "last_trade_price": 52.93
+  },
+  {
+    "symbol": "LINK-USD",
+    "price_24h": 7.995,
+    "volume_24h": 126.53350298,
+    "last_trade_price": 7.995
+  },
+  {
+    "symbol": "DOGE-USDT",
+    "price_24h": 0.06057,
+    "volume_24h": 18392,
+    "last_trade_price": 0.06058
+  },
+  {
+    "symbol": "GRT-USDC",
+    "price_24h": 0.10872,
+    "volume_24h": 0,
+    "last_trade_price": 0.10877
+  },
+  {
+    "symbol": "CRV-USD",
+    "price_24h": 0.9582,
+    "volume_24h": 1846.65636857,
+    "last_trade_price": 0.8973
+  },
+  {
+    "symbol": "COMP-USD",
+    "price_24h": 62,
+    "volume_24h": 3.958135,
+    "last_trade_price": 58.82
+  },
+  {
+    "symbol": "CEUR-EUR",
+    "price_24h": 1,
+    "volume_24h": 0,
+    "last_trade_price": 1
+  },
+  {
+    "symbol": "GBP-USD",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0
+  },
+  {
+    "symbol": "LTC-BTC",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0.005827
+  },
+  {
+    "symbol": "EFI-USD",
+    "price_24h": 0.148,
+    "volume_24h": 0,
+    "last_trade_price": 0.148
+  },
+  {
+    "symbol": "EOS-USDT",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0
+  },
+  {
+    "symbol": "DAI-USDT",
+    "price_24h": 0.999,
+    "volume_24h": 0,
+    "last_trade_price": 0.999
+  },
+  {
+    "symbol": "SOL-USDC",
+    "price_24h": 32.136,
+    "volume_24h": 0,
+    "last_trade_price": 32.133
+  },
+  {
+    "symbol": "BTC-GBP",
+    "price_24h": 18774.35,
+    "volume_24h": 122.32897934,
+    "last_trade_price": 18018.33
+  },
+  {
+    "symbol": "USDC-USD",
+    "price_24h": 1.0005,
+    "volume_24h": 0,
+    "last_trade_price": 1.0005
+  },
+  {
+    "symbol": "MKR-USD",
+    "price_24h": 725.8,
+    "volume_24h": 1.3903677,
+    "last_trade_price": 720.11
+  },
+  {
+    "symbol": "SNX-USDT",
+    "price_24h": 3.7085,
+    "volume_24h": 0,
+    "last_trade_price": 3.7085
+  },
+  {
+    "symbol": "LTC-TRY",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0
+  },
+  {
+    "symbol": "UMA-USDT",
+    "price_24h": 3.2113,
+    "volume_24h": 0,
+    "last_trade_price": 3.2113
+  },
+  {
+    "symbol": "WBTC-USD",
+    "price_24h": 19541.61,
+    "volume_24h": 0.10006003,
+    "last_trade_price": 18573.12
+  },
+  {
+    "symbol": "UMA-USD",
+    "price_24h": 2.935,
+    "volume_24h": 0,
+    "last_trade_price": 2.935
+  },
+  {
+    "symbol": "UNI-USDC",
+    "price_24h": 5.215,
+    "volume_24h": 0,
+    "last_trade_price": 5.215
+  },
+  {
+    "symbol": "CELO-USD",
+    "price_24h": 0.76,
+    "volume_24h": 0,
+    "last_trade_price": 0.76
+  },
+  {
+    "symbol": "THETA-USDC",
+    "price_24h": 1.0949,
+    "volume_24h": 0,
+    "last_trade_price": 1.0931
+  },
+  {
+    "symbol": "LTC-EUR",
+    "price_24h": 55.02,
+    "volume_24h": 12.06694335,
+    "last_trade_price": 55.14
+  },
+  {
+    "symbol": "SNX-USDC",
+    "price_24h": 2.3583,
+    "volume_24h": 0,
+    "last_trade_price": 2.3595
+  },
+  {
+    "symbol": "WDGLD-DGLD",
+    "price_24h": 0.9901,
+    "volume_24h": 0,
+    "last_trade_price": 0.99
+  },
+  {
+    "symbol": "THETA-USDT",
+    "price_24h": 1.0749,
+    "volume_24h": 73.19387342,
+    "last_trade_price": 1.0749
+  },
+  {
+    "symbol": "GRT-USDT",
+    "price_24h": 0.09659,
+    "volume_24h": 0,
+    "last_trade_price": 0.09659
+  },
+  {
+    "symbol": "EUR-USD",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0
+  },
+  {
+    "symbol": "DOT-USD",
+    "price_24h": 6.71,
+    "volume_24h": 15797.25429169,
+    "last_trade_price": 6.36
+  },
+  {
+    "symbol": "XTZ-USD",
+    "price_24h": 1.5,
+    "volume_24h": 0,
+    "last_trade_price": 1.5
+  },
+  {
+    "symbol": "USDT-TRY",
+    "price_24h": 8.29,
+    "volume_24h": 0,
+    "last_trade_price": 8.29
+  },
+  {
+    "symbol": "RARE-USDT",
+    "price_24h": 0.21162,
+    "volume_24h": 0,
+    "last_trade_price": 0.21162
+  },
+  {
+    "symbol": "COMP-USDT",
+    "price_24h": 56.4,
+    "volume_24h": 0,
+    "last_trade_price": 56.4
+  },
+  {
+    "symbol": "USDT-USD",
+    "price_24h": 1.0002,
+    "volume_24h": 127896.9798,
+    "last_trade_price": 1.0001
+  },
+  {
+    "symbol": "LEND-USDT",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0.4854
+  },
+  {
+    "symbol": "CELO-USDC",
+    "price_24h": 0.85,
+    "volume_24h": 0,
+    "last_trade_price": 0.84
+  },
+  {
+    "symbol": "USD-EUR",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0
+  },
+  {
+    "symbol": "ETH-GBP",
+    "price_24h": 1288.04,
+    "volume_24h": 405.03376815,
+    "last_trade_price": 1230.21
+  },
+  {
+    "symbol": "OGN-USD",
+    "price_24h": 0.22,
+    "volume_24h": 0,
+    "last_trade_price": 0.22
+  },
+  {
+    "symbol": "ZRX-USDC",
+    "price_24h": 0.3452,
+    "volume_24h": 0,
+    "last_trade_price": 0.3452
+  },
+  {
+    "symbol": "TFUEL-USD",
+    "price_24h": 0.05842,
+    "volume_24h": 0,
+    "last_trade_price": 0.05842
+  },
+  {
+    "symbol": "BAT-USD",
+    "price_24h": 0.29704,
+    "volume_24h": 1.20481928,
+    "last_trade_price": 0.29704
+  },
+  {
+    "symbol": "ADA-USD",
+    "price_24h": 0.4463,
+    "volume_24h": 86675.62170591,
+    "last_trade_price": 0.4321
+  },
+  {
+    "symbol": "AAVE-USDT",
+    "price_24h": 72.82,
+    "volume_24h": 0,
+    "last_trade_price": 72.81
+  },
+  {
+    "symbol": "ADA-USDT",
+    "price_24h": 0.4439,
+    "volume_24h": 0,
+    "last_trade_price": 0.4439
+  },
+  {
+    "symbol": "APE-USDC",
+    "price_24h": 5.962,
+    "volume_24h": 0,
+    "last_trade_price": 5.982
+  },
+  {
+    "symbol": "USDC-USDT",
+    "price_24h": 1.0003,
+    "volume_24h": 0,
+    "last_trade_price": 1.0003
+  },
+  {
+    "symbol": "ETH-PAX",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 219.41
+  },
+  {
+    "symbol": "BCH-USDT",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 358.46
+  },
+  {
+    "symbol": "ZRX-USDT",
+    "price_24h": 0.34513,
+    "volume_24h": 0,
+    "last_trade_price": 0.34513
+  },
+  {
+    "symbol": "CUSD-USD",
+    "price_24h": 0.9989,
+    "volume_24h": 0,
+    "last_trade_price": 0.9989
+  },
+  {
+    "symbol": "ALGO-USDT",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0.3614
+  },
+  {
+    "symbol": "SUSHI-USDC",
+    "price_24h": 0.995,
+    "volume_24h": 0,
+    "last_trade_price": 0.995
+  },
+  {
+    "symbol": "ENJ-USD",
+    "price_24h": 0.4533,
+    "volume_24h": 0,
+    "last_trade_price": 0.4533
+  },
+  {
+    "symbol": "LTC-USDT",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 73.28
+  },
+  {
+    "symbol": "DAI-GBP",
+    "price_24h": 0.9318,
+    "volume_24h": 2020.975,
+    "last_trade_price": 0.9318
+  },
+  {
+    "symbol": "EFI-USDC",
+    "price_24h": 0.136,
+    "volume_24h": 0,
+    "last_trade_price": 0.136
+  },
+  {
+    "symbol": "BTC-EUR",
+    "price_24h": 21004.35,
+    "volume_24h": 57.92188114,
+    "last_trade_price": 20176.92
+  },
+  {
+    "symbol": "USDT-EUR",
+    "price_24h": 1.0442,
+    "volume_24h": 30236.4796,
+    "last_trade_price": 1.0461
+  },
+  {
+    "symbol": "DGLD-USD",
+    "price_24h": 156.17,
+    "volume_24h": 11.313,
+    "last_trade_price": 155.39
+  },
+  {
+    "symbol": "EOS-USDC",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0
+  },
+  {
+    "symbol": "YFI-USDT",
+    "price_24h": 8028.36,
+    "volume_24h": 0.18686265,
+    "last_trade_price": 8028.36
+  },
+  {
+    "symbol": "WLUNA-USDT",
+    "price_24h": 0.01,
+    "volume_24h": 0,
+    "last_trade_price": 0.01
+  },
+  {
+    "symbol": "RARE-USD",
+    "price_24h": 0.30455,
+    "volume_24h": 0,
+    "last_trade_price": 0.30455
+  },
+  {
+    "symbol": "SUSHI-USDT",
+    "price_24h": 1.477,
+    "volume_24h": 0,
+    "last_trade_price": 1.477
+  },
+  {
+    "symbol": "RARE-USDC",
+    "price_24h": 0.21139,
+    "volume_24h": 0,
+    "last_trade_price": 0.21139
+  },
+  {
+    "symbol": "COMP-USDC",
+    "price_24h": 48.89,
+    "volume_24h": 0,
+    "last_trade_price": 48.42
+  },
+  {
+    "symbol": "ENJ-USDT",
+    "price_24h": 0.483,
+    "volume_24h": 0,
+    "last_trade_price": 0.483
+  },
+  {
+    "symbol": "CUSD-USDC",
+    "price_24h": 1.0024,
+    "volume_24h": 0,
+    "last_trade_price": 1.0024
+  },
+  {
+    "symbol": "LTC-PAX",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 74.03
+  },
+  {
+    "symbol": "MATIC-USDC",
+    "price_24h": 0.752,
+    "volume_24h": 0,
+    "last_trade_price": 0.752
+  },
+  {
+    "symbol": "PAX-EUR",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0.9444
+  },
+  {
+    "symbol": "NEAR-EUR",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0
+  },
+  {
+    "symbol": "AAVE-USD",
+    "price_24h": 74.83,
+    "volume_24h": 0,
+    "last_trade_price": 74.83
+  },
+  {
+    "symbol": "BTC-USDT",
+    "price_24h": 20205.52,
+    "volume_24h": 324.70907553,
+    "last_trade_price": 19409.74
+  },
+  {
+    "symbol": "DOT-GBP",
+    "price_24h": 6.25,
+    "volume_24h": 13568.93791831,
+    "last_trade_price": 5.97
+  },
+  {
+    "symbol": "WLUNA-USDC",
+    "price_24h": 0.001,
+    "volume_24h": 0,
+    "last_trade_price": 0.001
+  },
+  {
+    "symbol": "ETH-USDT",
+    "price_24h": 1384.07,
+    "volume_24h": 254.26443181,
+    "last_trade_price": 1312.89
+  },
+  {
+    "symbol": "SOL-USD",
+    "price_24h": 34.39,
+    "volume_24h": 118.52284772,
+    "last_trade_price": 32.584
+  },
+  {
+    "symbol": "APE-USDT",
+    "price_24h": 5.72,
+    "volume_24h": 259.67674069,
+    "last_trade_price": 5.255
+  },
+  {
+    "symbol": "ZRX-USD",
+    "price_24h": 0.35948,
+    "volume_24h": 0,
+    "last_trade_price": 0.35948
+  },
+  {
+    "symbol": "ADA-USDC",
+    "price_24h": 0.4406,
+    "volume_24h": 0,
+    "last_trade_price": 0.439
+  },
+  {
+    "symbol": "MATIC-USD",
+    "price_24h": 0.753,
+    "volume_24h": 16073.9358269,
+    "last_trade_price": 0.726
+  },
+  {
+    "symbol": "SUSHI-USD",
+    "price_24h": 1.047,
+    "volume_24h": 980.28,
+    "last_trade_price": 1.048
+  },
+  {
+    "symbol": "NEAR-USDT",
+    "price_24h": 0,
+    "volume_24h": 0,
+    "last_trade_price": 0
+  },
+  {
+    "symbol": "DAI-USD",
+    "price_24h": 0.9993,
+    "volume_24h": 29291.4655,
+    "last_trade_price": 0.9991
+  }
+]

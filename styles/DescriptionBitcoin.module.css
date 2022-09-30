@@ -1,0 +1,109 @@
+.centrado{
+   margin-left: 19px;
+   text-align: center;
+    
+
+}
+
+.tituloP{
+
+width: 290px;
+height: 43px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+
+
+
+
+color: #363537;
+
+}
+
+
+.parrafo{
+
+width: 290px;
+height: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+color: #363537;
+
+margin-top: 10px;
+
+
+
+
+}
+.lista{
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.tit{
+
+width: 200px;
+height: 35px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #363537;
+
+
+    
+}
+
+.bit{
+width: 169px;
+height: 29px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+
+color: #363537;
+margin-top: 5px
+
+}
+
+
+
+.prec{
+width: 150px;
+height: 35px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+color: #363537;
+
+margin-top: 13px;
+}
+
+.prec2{
+width: 61px;
+height: 29px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+
+color: #363537;
+margin-top: 5px;
+}

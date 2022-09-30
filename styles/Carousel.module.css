@@ -1,0 +1,51 @@
+.containerPrincipal{
+    width: 260px;
+    height: 216px;
+ 
+
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin-left: 106px;
+    margin-top: -16px;
+
+    
+}
+.circulo{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 5px;
+    background: #c7cacd;
+
+
+    
+}
+.circulo3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: 
+    #EF8354;
+    text-align: center;
+    margin-left: 5px;
+
+    
+}
+
+.foto{
+    width: 240px;
+    height: 216px;
+    margin-top: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 32px;
+  
+    
+    
+    background-size: cover;
+}
