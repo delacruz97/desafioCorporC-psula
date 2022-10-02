@@ -1,9 +1,8 @@
 import React from "react";
 import style from "../styles/Carousel.module.css";
+import img0 from "../assets/logo/nike_0.svg";
 import img1 from "../assets/nike_1.jpg";
 import img2 from "../assets/nike_2.jpg";
-import img3 from "../assets/nike_3.jpg";
-
 const Carousel = () => {
   return (
     <div className={style.containerPrincipal}>
@@ -14,13 +13,13 @@ const Carousel = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
+            <img src={img0} className={style.foto} alt="fot" />
+          </div>
+          <div className="carousel-item">
             <img src={img1} className={style.foto} alt="fot" />
           </div>
           <div className="carousel-item">
             <img src={img2} className={style.foto} alt="fot" />
-          </div>
-          <div className="carousel-item">
-            <img src={img3} className={style.foto} alt="fot" />
           </div>
         </div>
         <button

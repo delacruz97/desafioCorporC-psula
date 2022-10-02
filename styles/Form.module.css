@@ -5,7 +5,7 @@
     position: absolute;
     margin-left: 366px;
     top: 491px;
-    margin-top: -267px;
+    margin-top: -340px;
 
 
    
@@ -15,14 +15,62 @@
     width: 446px;
     height:64px;
     margin-top: 5px;
-    margin-bottom: 20px;
+/*     margin-bottom: 0px; */
     border-radius: 10px;
     font-size: 21px;
     border: none;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+    padding-left: 15px;
+
     
 }
+
+
+.displayFecha{
+
+    display: flex;
+    width: 446px;
+    height:64px;
+    border-radius: 10px;
+    font-size: 21px;
+    border: none;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+   
+}
+.inputMes{
+    width: 55px;
+    height:64px;
+    margin-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 21px;
+    border: none;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 15px;
+    background-color: white;;
+ 
+
+    
+}
+.inputAno{
+    width: 55px;
+    height:64px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 0px 0px;
+    font-size: 21px;
+    border: none;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 15px;
+    background-color: white;;
+ 
+
+    
+}
+
+
+
+
 @media (max-width: 700px) {
     .input {
         width: 250px;
@@ -33,6 +81,48 @@
         font-size: 21px;
 
     }
+    
+.displayFecha{
+
+    display: flex;
+    width: 250px;
+    height:40px;
+    border-radius: 10px;
+    font-size: 21px;
+    border: none;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+   
+}
+
+.inputMes{
+    width: 55px;
+    height:40px;
+    margin-bottom: 20px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 21px;
+    border: none;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 15px;
+    background-color: white;;
+ 
+
+    
+}
+.inputAno{
+    width: 55px;
+    height:40px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 0px 0px;
+    font-size: 21px;
+    border: none;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 15px;
+    background-color: white;;
+ 
+
+    
+}
     
     
    }
@@ -105,4 +195,54 @@
     
         
     }
+   
+}
+.flexs{
+    display: flex;
+    position: relative;
+}
+
+.imgTarjeta{
+    width: 73px;
+    height: 44px;
+    position: absolute;
+
+    background-color: rgba(0, 255, 255, 0);
+    right: -0;
+    margin-right: 10px;
+    bottom: 10px;
+    border-radius: 3px;
+   
+  
+  
+}
+@media (max-width: 700px) {
+
+    
+    .imgTarjeta{
+        width: 40px;
+        height: 44px;
+        position: absolute;
+    
+        background-color: rgba(69, 94, 94, 0);
+        right: -0;
+        margin-right: 10px;
+        margin-bottom: 8px;
+        bottom: 10px;
+        border-radius: 3px;
+       
+      
+      
+    }
+}
+
+.NumeroERR{
+    width: 100px;
+    height: 30px;
+    color: red;
+    font-size: 12px;
+    text-align: center;
+    top: 60px;
+    
+    
 }

@@ -1,6 +1,7 @@
 .containerPrincipal{
     width: 260px;
     height: 216px;
+    
  
 
 }
@@ -44,7 +45,7 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 32px;
-  
+    border-radius: 5px;
     
     
     background-size: cover;
