@@ -11,9 +11,10 @@ const Form = () => {
   const [masterCard, setmasterCard] = useState(false);
   const [diners, setDiners] = useState(false);
   const [american, setaAmerican] = useState(false);
-  const [errTarjeta, setErrorTarj] = useState(false);
 
+  const [errTarjeta, setErrorTarj] = useState(false);
   const [mesA, setMesA] = useState(false);
+  const [añoA, setAñoA] = useState(false);
 
   //expreciones regulares
 
@@ -25,14 +26,6 @@ const Form = () => {
   //controlar error
   let regExp = /[A-z]/g;
 
-  /*   const errorTarjeta = (tarjetaE) => {
-    if (regExp.test(tarjetaE)) {
-      setErrorTarj(true);
-    } else {
-      setErrorTarj(false);
-    }
-  }; */
-
   const valorTarjeta = (tarjetaValidar) => {
     //me aseguro que el  campo tarjeta no sea vacio
     if (tarjetaValidar.trim()) {
@@ -40,28 +33,24 @@ const Form = () => {
       if (visaRegex.test(tarjetaValidar)) {
         setTarjeta(true);
         setVisa(true);
-        console.log("visa");
       } else {
         setVisa(false);
       }
       if (masterCardRegex.test(tarjetaValidar)) {
         setTarjeta(true);
         setmasterCard(true);
-        console.log("masterCard");
       } else {
         setmasterCard(false);
       }
       if (dinersRegex.test(tarjetaValidar)) {
         setTarjeta(true);
         setDiners(true);
-        console.log("diners");
       } else {
         setDiners(false);
       }
       if (americanRegex.test(tarjetaValidar)) {
         setTarjeta(true);
         setaAmerican(true);
-        console.log("american");
       } else {
         setaAmerican(false);
       }
@@ -72,6 +61,40 @@ const Form = () => {
     } else {
       setErrorTarj(false);
     }
+  };
+
+  const valorMes = (m) => {
+    if (m.trim()) {
+      //me aseguro que el  campo mes no sea vacio
+
+      if (m.trim()) {
+        //valido el mes con la expresion regular
+        if (regExp.test(m) || parseInt(m) > 12) {
+          setMesA(true);
+        } else {
+          setMesA(false);
+        }
+      }
+    }
+  };
+
+  const valorAño = (m) => {
+    if (m.trim()) {
+      //me aseguro que el  campo año no sea vacio
+      if (m.trim()) {
+        //valido el año con la expresion regular
+        if (regExp.test(m) || parseInt(m) > 30) {
+          setAñoA(true);
+        } else {
+          setAñoA(false);
+        }
+      }
+    }
+    /*  if (parseInt(m) > 31) {
+      setAñoA(true);
+    } else {
+      setAñoA(false);
+    } */
   };
 
   function fotoVisa() {
@@ -92,14 +115,14 @@ const Form = () => {
   function mensajeErr() {
     return <p>Tarjeta invalida</p>;
   }
-
-  function valorMes(mesValue) {
-    if (parseInt(mesValue.value) > 0 || parseInt(mesValue.value) <= 12) {
-      console.log("correcto");
-    } else {
-      console.log("valor mal");
-    }
+  function mensajeErrMES() {
+    return <p>Mes invalida</p>;
   }
+
+  function mensajeErrAño() {
+    return <p>Año invalida</p>;
+  }
+
   return (
     <div>
       <form className={style.form}>
@@ -152,10 +175,12 @@ const Form = () => {
               name="inputYear"
               id="inputYear"
               placeholder="30"
+              onChange={(e) => valorAño(e.target.value)}
             />
           </div>
           <div className={style.NumeroERR}>
-            {errTarjeta === true ? mensajeErr() : null}
+            {mesA === true ? mensajeErrMES() : null}
+            {añoA === true ? mensajeErrAño() : null}
           </div>
         </label>
         <label>
@@ -173,8 +198,6 @@ const Form = () => {
         <input type="submit" value="PAY NOW" className={style.button} />
       </form>
     </div>
-    /* pruebaaaaa */
   );
 };
-
 export default Form;
