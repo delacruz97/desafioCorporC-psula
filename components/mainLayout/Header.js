@@ -1,7 +1,7 @@
 import React from "react";
 
 import Card from "../card/Container";
-import Api from "../../utils/api";
+/* import { precioBit } from "../../utils/api"; */
 
 const Header = () => {
   return (

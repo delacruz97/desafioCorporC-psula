@@ -23,8 +23,9 @@ const Form = () => {
     /^5[1-5][0-9]{5,}|222[1-9][0-9]{3,}|22[3-9][0-9]{4,}|2[3-6][0-9]{5,}|27[01][0-9]{4,}|2720[0-9]{3,}$/;
   const dinersRegex = /^3(?:0[0-5]|[68][0-9])[0-9]{4,}$/;
   const americanRegex = /^3[47][0-9]{5,}$/;
-  //controlar error
   let regExp = /[A-z]/g;
+
+  //Esta funcion me verifica que las tarjetas ingresadas sean correctas
 
   const valorTarjeta = (tarjetaValidar) => {
     //me aseguro que el  campo tarjeta no sea vacio
@@ -63,6 +64,7 @@ const Form = () => {
     }
   };
 
+  //esta funcion me verifica que el mes ingresado sea correcto
   const valorMes = (m) => {
     if (m.trim()) {
       //me aseguro que el  campo mes no sea vacio
@@ -77,7 +79,7 @@ const Form = () => {
       }
     }
   };
-
+  //esta funcion me verifica que el año ingresado sea correcto
   const valorAño = (m) => {
     if (m.trim()) {
       //me aseguro que el  campo año no sea vacio
@@ -97,6 +99,7 @@ const Form = () => {
     } */
   };
 
+  //funciones que me retornan las fotos de las tarjetas
   function fotoVisa() {
     return <img src={Visa} alt="Visa" className={style.imgTarjeta} />;
   }
@@ -112,6 +115,7 @@ const Form = () => {
     return <img src={American} alt="American" className={style.imgTarjeta} />;
   }
 
+  //funciones de Errores
   function mensajeErr() {
     return <p>Tarjeta invalida</p>;
   }
@@ -126,6 +130,7 @@ const Form = () => {
   return (
     <div>
       <form className={style.form}>
+        {/**input de tarjeta */}
         <label>
           <p className={style.descr}>Card Number</p>
 
@@ -155,6 +160,7 @@ const Form = () => {
             {errTarjeta === true ? mensajeErr() : null}
           </div>
         </label>
+        {/* input del mes y año */}
         <label>
           <p className={style.descr}>MM/YY</p>
           <div className={style.displayFecha}>
@@ -183,6 +189,8 @@ const Form = () => {
             {añoA === true ? mensajeErrAño() : null}
           </div>
         </label>
+
+        {/* input del codigo */}
         <label>
           <p className={style.descr}>CVC Code</p>
           <input
@@ -194,6 +202,7 @@ const Form = () => {
         </label>
 
         <br />
+        {/* buttom */}
 
         <input type="submit" value="PAY NOW" className={style.button} />
       </form>
