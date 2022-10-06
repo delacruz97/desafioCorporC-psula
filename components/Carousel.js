@@ -13,7 +13,7 @@ const Carousel = () => {
       >
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={img0} className={style.foto} alt="fot" />
+            <img src={img0} className={style.foto} alt="fot" title="fotos" />
           </div>
           <div className="carousel-item">
             <img src={img1} className={style.foto} alt="fot" />

@@ -4,8 +4,8 @@ import axios from "axios";
 
 const DescriptionBitcoin = () => {
   const [precio, setPrecio] = useState([]);
-
   var llamadas = 0;
+
   //obteniendo datos de la api
   useEffect(() => {
     const obtenerPrecios = async () => {
@@ -27,7 +27,7 @@ const DescriptionBitcoin = () => {
   //funcion la cual me actualiza cada dato
   const maxi = () => {
     const numeros = todo;
-    const res = numeros[llamadas].toFixed(6);
+    const res = numeros[llamadas].toFixed(10);
     const n = document.querySelector("#precioo");
     n.innerHTML = res;
     llamadas++;
@@ -38,18 +38,18 @@ const DescriptionBitcoin = () => {
   return (
     <div>
       <div className={style.centrado}>
-        <span className={style.tituloP}>Sneekers for Men</span>
+        <p className={style.tituloP}>Sneekers for Men</p>
 
-        <p className={style.parrafo}>
+        <article className={style.parrafo} title="parrafo principal">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt
-        </p>
+        </article>
       </div>
       <div>
         <ul className={style.lista}>
           <li className={style.tit}>Price in BTC</li>
           <li className={style.bit}>
-            ₿ <span id="precioo"></span>
+            ₿ <span id="precioo">0.0028162403</span>
           </li>
           <li className={style.prec}>Price in USD</li>
           <li className={style.prec2}>$69</li>
@@ -60,19 +60,3 @@ const DescriptionBitcoin = () => {
 };
 
 export default DescriptionBitcoin;
-
-/* 
-useEffect(() => {
-  (async () => {
-    try{
-      
-      const result = await Api
-      setSeconds(result)
-
-    } catch (error){
-      console.error(error)
-    }
-    
-
-  }) ()
-}, []) */
