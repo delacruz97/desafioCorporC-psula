@@ -38,21 +38,31 @@ const DescriptionBitcoin = () => {
   return (
     <div>
       <div className={style.centrado}>
-        <p className={style.tituloP}>Sneekers for Men</p>
-
+        <p className={style.tituloP} translate="no">
+          Sneekers for Men
+        </p>
+      </div>
+      <div className={style.centrado}>
         <article className={style.parrafo} title="parrafo principal">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt
         </article>
       </div>
+
       <div>
         <ul className={style.lista}>
-          <li className={style.tit}>Price in BTC</li>
-          <li className={style.bit}>
+          <li className={style.tit} translate="no">
+            Price in BTC
+          </li>
+          <li className={style.bit} translate="no">
             ₿ <span id="precioo">0.0028162403</span>
           </li>
-          <li className={style.prec}>Price in USD</li>
-          <li className={style.prec2}>$69</li>
+          <li className={style.prec} translate="no">
+            Price in USD
+          </li>
+          <li className={style.prec2} translate="no">
+            $69
+          </li>
         </ul>
       </div>
     </div>

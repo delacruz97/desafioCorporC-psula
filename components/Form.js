@@ -92,11 +92,6 @@ const Form = () => {
         }
       }
     }
-    /*  if (parseInt(m) > 31) {
-      setAñoA(true);
-    } else {
-      setAñoA(false);
-    } */
   };
 
   //funciones que me retornan las fotos de las tarjetas
@@ -132,7 +127,9 @@ const Form = () => {
       <form className={style.form}>
         {/**input de tarjeta */}
         <label>
-          <p className={style.descr}>Card Number</p>
+          <p className={style.descr} translate="no">
+            Card Number
+          </p>
 
           <div className={style.flexs}>
             <input
@@ -162,7 +159,9 @@ const Form = () => {
         </label>
         {/* input del mes y año */}
         <label>
-          <p className={style.descr}>MM/YY</p>
+          <p className={style.descr} translate="no">
+            MM/YY
+          </p>
           <div className={style.displayFecha}>
             <input
               type="text"
@@ -192,7 +191,9 @@ const Form = () => {
 
         {/* input del codigo */}
         <label>
-          <p className={style.descr}>CVC Code</p>
+          <p className={style.descr} translate="no">
+            CVC Code
+          </p>
           <input
             type="text"
             maxLength="3"
@@ -204,7 +205,12 @@ const Form = () => {
         <br />
         {/* buttom */}
 
-        <input type="submit" value="PAY NOW" className={style.button} />
+        <input
+          type="submit"
+          value="PAY NOW"
+          className={style.button}
+          translate="no"
+        />
       </form>
     </div>
   );

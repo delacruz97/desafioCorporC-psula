@@ -7,7 +7,7 @@
 
 .tituloP{
 
-width: 290px;
+max-width: 290px; /*  */
 height: 43px;
 
 font-family: 'Roboto';
@@ -18,15 +18,15 @@ line-height: 42px;
 
 
 
-
 color: #363537;
+
 
 }
 
 
 .parrafo{
 
-width: 290px;
+max-width: 290px;
 height: 30px;
 
 font-family: 'Roboto';
@@ -34,16 +34,13 @@ font-style: normal;
 font-weight: 300;
 font-size: 14px;
 line-height: 16px;
-text-align: center;
 
 color: #363537;
 
-margin-top: 10px;
-
-
-
+margin-top: 20px;
 
 }
+
 .lista{
     list-style: none;
     margin-top: 30px;
@@ -52,7 +49,7 @@ margin-top: 10px;
 
 .tit{
 
-width: 200px;
+max-width: 200px; /*  */
 height: 35px;
 font-family: 'Poppins';
 font-style: normal;
@@ -66,8 +63,8 @@ color: #363537;
 }
 
 .bit{
-width: 169px;
-height: 29px;
+max-width: 169px;
+max-height: 29px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
@@ -82,7 +79,7 @@ margin-top: 5px
 
 
 .prec{
-width: 150px;
+max-width: 150px; /*  */
 height: 35px;
 font-family: 'Poppins';
 font-style: normal;
@@ -96,7 +93,7 @@ margin-top: 13px;
 }
 
 .prec2{
-width: 61px;
+max-width: 61px;  /*  */
 height: 29px;
 font-family: 'Poppins';
 font-style: normal;
