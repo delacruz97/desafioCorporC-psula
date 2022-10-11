@@ -4,7 +4,7 @@ import axios from "axios";
 
 const DescriptionBitcoin = () => {
   const [precio, setPrecio] = useState([]);
-  var llamadas = 0;
+  let state = 0;
 
   //obteniendo datos de la api
   useEffect(() => {
@@ -25,15 +25,18 @@ const DescriptionBitcoin = () => {
   var todo = precio.map((e) => e.price_24h);
 
   //funcion la cual me actualiza cada dato
-  const maxi = () => {
+  const fun = () => {
     const numeros = todo;
-    const res = numeros[llamadas].toFixed(10);
+    const res = numeros[state].toFixed(10);
     const n = document.querySelector("#precioo");
     n.innerHTML = res;
-    llamadas++;
+    state++;
+    if (numeros.length <= 0) {
+      clearInterval(intervalo);
+    }
   };
   //funcion  setInterval
-  setInterval(maxi, 5000);
+  const intervalo = setInterval(fun, 5000);
 
   return (
     <div>
