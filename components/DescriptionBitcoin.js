@@ -71,5 +71,5 @@ const DescriptionBitcoin = () => {
     </div>
   );
 };
-
+/*  */
 export default DescriptionBitcoin;

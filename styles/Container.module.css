@@ -66,7 +66,14 @@
         margin-top: -67px;
         /* margin-top: -67px; */
         /* position: fixed;  *//* me deja fijo mi contenedor */
+
+        /* me deja quieto el contenedor */
+        position: fixed;
         position: absolute;
+        margin: auto;
+
+        
+   
 
    
   
@@ -74,10 +81,11 @@
 
         
     }
+    
 
     @media (max-width: 700px) {
         .images{
-            left: 86px;
+            left: 90px;
         }
     }
   
