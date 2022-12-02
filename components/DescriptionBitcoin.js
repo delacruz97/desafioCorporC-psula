@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
+/* import React, { useEffect, useState } from "react"; */
 import style from "../styles/DescriptionBitcoin.module.css";
-import axios from "axios";
+// import axios from "axios";
 
 const DescriptionBitcoin = () => {
-  const [precio, setPrecio] = useState([]);
-  let state = 0;
+  // const [precio, setPrecio] = useState([]);
+  // let state = 0;
 
   //obteniendo datos de la api
-  useEffect(() => {
+  /* useEffect(() => {
     const obtenerPrecios = async () => {
       try {
         const url = " https://api.blockchain.com/v3/exchange/tickers";
@@ -20,23 +20,23 @@ const DescriptionBitcoin = () => {
       }
     };
     obtenerPrecios();
-  }, []);
+  }, []); */
   //mapeando y obteniendo  un array con todos los datos "price_24h"
-  var todo = precio.map((e) => e.price_24h);
+  /*  var todo = precio.map((e) => e.price_24h); */
 
   //funcion la cual me actualiza cada dato
-  const fun = () => {
-    const numeros = todo;
-    const res = numeros[state].toFixed(10);
-    const n = document.querySelector("#precioo");
-    n.innerHTML = res;
-    state++;
-    if (numeros.length <= 0) {
-      clearInterval(intervalo);
-    }
-  };
+  // const fun = () => {
+  //   const numeros = todo;
+  //   const res = numeros[state].toFixed(10);
+  //   const n = document.querySelector("#precioo");
+  //   n.innerHTML = res;
+  //   state++;
+  //   if (numeros.length <= 0) {
+  //     clearInterval(intervalo);
+  //   }
+  // };
   //funcion  setInterval
-  const intervalo = setInterval(fun, 5000);
+  // const intervalo = setInterval(fun, 5000);
 
   return (
     <div>
