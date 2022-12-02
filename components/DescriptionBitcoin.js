@@ -1,4 +1,5 @@
 /* import React, { useEffect, useState } from "react"; */
+import React from "react";
 import style from "../styles/DescriptionBitcoin.module.css";
 // import axios from "axios";
 
